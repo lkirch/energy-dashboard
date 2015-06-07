@@ -1,0 +1,6 @@
+metadata <- read.table("~/W210-R-analysis/data/raw/metadata.csv", sep=";", quote="\”")
+austin <- subset(metadata, city=="Austin" & active_record=="yes")
+library(dplyr)
+set.seed(1)
+stratsample <- austin %>% group_by(pv) %>% sample_n(30)
+write.table(stratsample, "austinSample.csv", sep="\t”)

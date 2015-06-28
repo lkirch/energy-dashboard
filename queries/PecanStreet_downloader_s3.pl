@@ -11,8 +11,6 @@ my $dbh = DBI->connect($dsn, $userid, $password, { RaiseError => 1 })
 or die $DBI::errstr;
 
 print "Opened database successfully\n";
-### set output file location and name
-open OUTPUT, "> //mnt//s3-drive//2014-electricity-minute_data.txt";
 
 my $print_header = 1;
 my $ds_aref = get_datasets($dbh);
@@ -20,6 +18,9 @@ my @dataids = @{$ds_aref};
 
 foreach my $ds (@dataids)
 {
+	### set output file location and name
+	open OUTPUT, "> //mnt//s3-drive//$ds-2014-electricity-minute_data.txt";
+
 	my $query = data_query($ds);
         print $query;
 	my $qh = $dbh -> prepare($query);
@@ -38,9 +39,9 @@ foreach my $ds (@dataids)
 	}
 	
  	$qh -> finish();
+ 	close OUTPUT;
 }
 
-close OUTPUT;
 $dbh -> disconnect();
 print "Closed database connection\n";
 exit();

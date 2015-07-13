@@ -1,4 +1,4 @@
-create table electricity_egauge_hour (
+create table electricity_egauge_hours (
 	dataid integer, 
 	localhour timestamp with time zone,
 	use numeric, 
@@ -74,8 +74,8 @@ create table electricity_egauge_hour (
  	winecooler1 numeric
 );
 
-create index electricity_egauge_hours_dataid_idx on electricity_egauge_hour using btree (dataid);
+create index electricity_egauge_hours_dataid_idx on electricity_egauge_hours using btree (dataid);
 
-create index electricity_egauge_hours_dataid_localhour_use_idx on electricity_egauge_hour using btree (dataid, localhour DESC NULLS LAST, use);
+create index electricity_egauge_hours_dataid_localhour_use_idx on electricity_egauge_hours using btree (dataid, localhour DESC NULLS LAST, use);
 
-create index electricity_egauge_hours_localhour_idx on electricity_egauge_hour using btree (localhour DESC NULLS LAST);
+create index electricity_egauge_hours_localhour_idx on electricity_egauge_hours using btree (localhour DESC NULLS LAST);

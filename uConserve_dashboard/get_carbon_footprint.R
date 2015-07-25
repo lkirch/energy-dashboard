@@ -1,0 +1,17 @@
+get_carbon_footprint <- function(dataid) {
+  
+  library(RPostgreSQL)
+  
+  drv <- dbDriver("PostgreSQL")
+  con <- dbConnect(drv,host='localhost',port='5432',dbname='postgres',user='rahul',password='uconserve')
+  query <- paste("select result_housing_total from co2flags where dataid = '",data_id,"';",sep = "")
+  query
+  rs <- dbSendQuery(con,query)
+  data <- fetch(rs,n=-1)
+  
+  ### Disconnect from database
+  dbDisconnect(con)
+  dbUnloadDriver(drv)
+  
+  data$carbon_footprint
+}

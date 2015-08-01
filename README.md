@@ -9,7 +9,7 @@ Our goal is to drive awareness and conservation of the world’s natural resourc
 
 The uConserve dashboard is the manifestation of our mission in the form of a web application, an in-home wall unit device, and a tablet application that allows users to see, understand, and intelligently change their resource consumption habits
   
-Project Scope
+##Project Scope
 * To build in as much live, open source data into the home energy dashboard as possible in a clean, intuitive, usable manner. 
 * Be able to make a significant impact on how people view their energy consumption and offer them actionable ways to reduce or more efficiently use their scarce resources.
 * Illustrate what their homes are using, compare with others, highlight potential savings, leaks, and waste points in the system.  

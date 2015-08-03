@@ -19,15 +19,19 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 * If possible, break down costs by appliance and flag appliances or watering devices that may be leaking or could be turned off. 
  
 ##Datasets
-* Pecan Street Inc. Dataport 2015 - the world’s largest source of circuit level, disaggregated and whole-home electricity use data, smart water meter data, smart natural gas meter data of 1,200+ individual residences in Texas, California, and Colorado - https://dataport.pecanstreet.org
+* Pecan Street Inc. Dataport 2015 - the world’s largest source of circuit level, disaggregated and whole-home electricity use data, smart water meter data, smart natural gas meter data, time-stamped weather data, and metadata and annual participant survey data of 1,200+ individual residences in Texas, California, and Colorado - https://dataport.pecanstreet.org
 * US Environmental Protection Agency Clean Energy Calculations and References - http://www.epa.gov/cleanenergy/energy-resources/refs.html
 
 ##Development and Analysis Tools
-* R
-* shiny server
-* Python
-* postgres 
+* Data was stored in postgreSQL running on a SoftLayer ubuntu server.
+* R and python were used to analyze the data and create statistical analysis, forecasts, and appliance analysis of resource usage
+* The pipeline was hooked into a shiny server to generate dynamic displays.
 
 ##Web Design
 * For mockups we used uxpin.com.
-* For our project description page we used a one-page Bootstrap template ([Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)) for our webpage design. The main font was changed to a san-serif for a more clean and modern look and we broke the content into five main sections:
+* For our project description page we used a Bootstrap template ([Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)) for our webpage design.
+* A prototype website was created with weebly - http://energy-dashboard.weebly.com.
+
+##Limitations
+* Unfortunately not every home in the US has meters on all of their resources.
+* Some customers do not have data complete data for all 3 resources - electricity, water, and natural gas.  This made finding large enough comparison samples difficult sometimes. 

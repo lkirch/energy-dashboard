@@ -300,14 +300,15 @@
                     <p class="text-muted"><i class="fa fa-caret-right"></i> Click on today's usage to see how they are doing so far</p>
                     <p class="text-muted"><i class="fa fa-caret-right"></i> Click on prediction to see how you might do today, tomorrow, and in the near future</p>
                     <p class="text-muted"><i class="fa fa-caret-right"></i> Click on end of month bill prediction to see how much you can save with some easy to implement conservation techniques</p>
-                    <p class="text-muted"><i class="fa fa-caret-right"></i> Click on no water needed to signal your sprinklers to not turn on</p>                
+                    <p class="text-muted"><i class="fa fa-caret-right"></i> Click on no water needed to signal your sprinklers to not turn on</p> 
+                    <p class="text-muted"><i class="fa fa-caret-right"></i> See their impact on the environment</p>                
                     <img src="img/portfolio/uConserve-Wall-Unit.png" class="img-rounded" alt="uConserve Wall Unit">
                 </div>
             </div>
             <br />
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h4 class="service-subheading">Using the Website, the User Could</h4>
+                    <h4 class="service-heading">Using the Website, the User Could</h4>
                     <a href="http://energy-dashboard.weebly.com/"><img src="img/portfolio/Energy-Dashboard-Weebly-Home.png" class="img-rounded" alt="Website Example"> </a>
                 </div>
             </div>
@@ -827,6 +828,16 @@
                 						</div>
             						</div>
             					</div>
+            				<br />
+            				<br />
+            				<br />
+            				<p class="text-muted"><i class="fa fa-caret-right"></i>We used ARIMA models to predict energy usage for each between today and the end of the month. This allowed us to provide real-time predictions for the end-of-month bill.</p>
+							<p class="text-muted"><i class="fa fa-caret-right"></i>Model performance was very strong. Tested on 3 separate users for days in winter and summer, our model predicted within 3 kWh of the day’s actual usage.</p>
+							<p class="text-muted"><i class="fa fa-caret-right"></i>Summed at the month level (for bill prediction), we had an error rate of less than 1%.</p>
+							<p class="text-muted"><i class="fa fa-caret-right"></i>We optimized our ARIMA model by grid searching on two primary parameters: the auto-regressive term, and the moving average term.</p>
+							<p class="text-muted"><i class="fa fa-caret-right"></i>Providing accurate end-of-month predictions allows the user to feel confident in the number they are working against. They can set goals and see how they performed against the prediction when the end of the month comes around.</p>
+							<p></p>
+							<p class="text-muted"><i class="fa fa-caret-right"></i>For our “don’t water” recommendation, we looked at precipitation predictions for the following 5 days. Weather data was provided along with electricity usage data in the Pecan Street dataset.</p>
             				<img class="img-responsive img-centered" style="width:150px;height:150px" src="img/spacer.gif" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/ShinyServer-93.png" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/ShinyServer-585.png" alt="">

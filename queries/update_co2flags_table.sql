@@ -4,203 +4,203 @@ alter table co2flags
 
 
 -- carbon footprint values are from the CoolClimate API 
--- using downtown Austin zip code 78701
+-- using downtown Austin zip code 78704
  
 update co2flags 
-   set result_housing_total = 6.653839,
-       result_grand_total = 25.269194
+   set result_housing_total = 7.815824,
+       result_grand_total = 27.709996
  where num_residents = 0 and
        co2_inc_flag = 2;
          
 update co2flags 
-   set result_housing_total = 8.893162,
-       result_grand_total = 42.013681
+   set result_housing_total = 10.335476,
+       result_grand_total = 46.340469
  where num_residents = 0 and
        co2_inc_flag = 8;
        
 update co2flags 
-   set result_housing_total = 11.047004,
-       result_grand_total = 56.686517
+   set result_housing_total = 12.839948,
+       result_grand_total = 61.815252
  where num_residents = 0 and
        co2_inc_flag = 11;      
        
 update co2flags 
-   set result_housing_total = 5.941989,
-       result_grand_total = 20.453935
+   set result_housing_total = 6.863444,
+       result_grand_total = 22.493412
  where num_residents = 1 and
        co2_inc_flag = 1;
       
 update co2flags 
-   set result_housing_total = 5.549544,
-       result_grand_total = 16.700272
+   set result_housing_total = 6.470999, 
+       result_grand_total = 18.390375
  where num_residents = 1 and
        co2_inc_flag = 3;       
        
 update co2flags 
-   set result_housing_total = 6.105629,
-       result_grand_total = 19.71143
+   set result_housing_total = 7.087217,
+       result_grand_total = 21.810253
  where num_residents = 1 and
        co2_inc_flag = 4; 
 
 update co2flags 
-   set result_housing_total = 6.698975,
-       result_grand_total = 23.786761
+   set result_housing_total = 7.850794,
+       result_grand_total = 26.401885
  where num_residents = 1 and
        co2_inc_flag = 6; 
 
 update co2flags 
-   set result_housing_total = 7.445574,
-       result_grand_total = 30.574168
+   set result_housing_total = 8.647359,
+       result_grand_total = 33.437878
  where num_residents = 1 and
        co2_inc_flag = 8; 
 
 update co2flags 
-   set result_housing_total = 8.063569,
-       result_grand_total = 33.915004
+   set result_housing_total = 9.325487,
+       result_grand_total = 36.965321
  where num_residents = 1 and
        co2_inc_flag = 9;
 
 update co2flags 
-   set result_housing_total = 9.442904,
-       result_grand_total = 41.378415
+   set result_housing_total = 10.875053,
+       result_grand_total = 44.798894
  where num_residents = 1 and
        co2_inc_flag = 11;
 
 update co2flags 
-   set result_housing_total = 9.085098,
-       result_grand_total = 36.255856
+   set result_housing_total = 10.647678,  
+       result_grand_total = 39.940866
  where num_residents = 2 and
        co2_inc_flag = 1;
        
 update co2flags 
-   set result_housing_total = 6.841511,
-       result_grand_total = 23.559619
+   set result_housing_total = 8.003495,
+       result_grand_total = 25.961879
  where num_residents = 2 and
        co2_inc_flag = 2;
 
 update co2flags 
-   set result_housing_total = 7.798307,
-       result_grand_total = 27.612908
+   set result_housing_total = 9.190656,
+       result_grand_total = 30.624349
  where num_residents = 2 and
        co2_inc_flag = 4;
 
 update co2flags 
-   set result_housing_total = 8.513367,
-       result_grand_total = 32.459782
+   set result_housing_total = 9.955682,
+       result_grand_total = 35.92206
  where num_residents = 2 and
        co2_inc_flag = 6;
 
 update co2flags 
-   set result_housing_total = 9.300963,
-       result_grand_total = 38.185092
+   set result_housing_total = 10.863542,
+       result_grand_total = 42.220753
  where num_residents = 2 and
        co2_inc_flag = 8;
 
 update co2flags 
-   set result_housing_total = 9.980247,
-       result_grand_total = 42.212692
+   set result_housing_total = 11.652925,
+       result_grand_total = 46.457871
  where num_residents = 2 and
        co2_inc_flag = 9;
 
 update co2flags 
-   set result_housing_total = 11.563734,
-       result_grand_total = 51.188835
+   set result_housing_total = 13.41681,
+       result_grand_total = 55.922738
  where num_residents = 2 and
        co2_inc_flag = 11;
 
 update co2flags 
-   set result_housing_total = 9.95789,
-       result_grand_total = 41.45907
+   set result_housing_total = 11.690701,
+       result_grand_total = 45.860941
  where num_residents = 3 and
        co2_inc_flag = 1;
 
 update co2flags 
-   set result_housing_total = 7.939386,
-       result_grand_total = 29.14273
+   set result_housing_total = 9.281768,
+       result_grand_total = 32.410335
  where num_residents = 3 and
        co2_inc_flag = 4;
        
 update co2flags 
-   set result_housing_total = 9.296392,
-       result_grand_total = 36.306602
+   set result_housing_total = 10.929271,
+       result_grand_total = 40.50607
  where num_residents = 3 and
        co2_inc_flag = 6;
 
 update co2flags 
-   set result_housing_total = 9.806982,
-       result_grand_total = 41.32471
+   set result_housing_total = 11.539793,
+       result_grand_total = 45.986043
  where num_residents = 3 and
        co2_inc_flag = 8;
 
 update co2flags 
-   set result_housing_total = 10.578007,
-       result_grand_total = 45.693636
+   set result_housing_total = 12.431083,
+       result_grand_total = 50.685311
  where num_residents = 3 and
        co2_inc_flag = 9;
 
 update co2flags 
-   set result_housing_total = 12.256849,
-       result_grand_total = 55.369011
+   set result_housing_total = 14.340289,
+       result_grand_total = 60.894454
  where num_residents = 3 and
        co2_inc_flag = 11;
 
 update co2flags 
-   set result_housing_total = 10.933697,
-       result_grand_total = 47.467389
+   set result_housing_total = 12.83674, 
+       result_grand_total = 52.426778
  where num_residents = 4 and
        co2_inc_flag = 1;
 
 update co2flags 
-   set result_housing_total = 7.726367,
-       result_grand_total = 29.971779
+   set result_housing_total = 9.118715,
+       result_grand_total = 33.269886
  where num_residents = 4 and
        co2_inc_flag = 3;
 
 update co2flags 
-   set result_housing_total = 9.43203,
-       result_grand_total = 38.202207
+   set result_housing_total = 11.114875,
+       result_grand_total = 42.612792
  where num_residents = 4 and
        co2_inc_flag = 6;
 
 update co2flags 
-   set result_housing_total = 10.581895,
-       result_grand_total = 46.085325
+   set result_housing_total = 12.374838,
+       result_grand_total = 51.164468
  where num_residents = 4 and
        co2_inc_flag = 8;
 
 update co2flags 
-   set result_housing_total = 11.377494,
-       result_grand_total = 50.477992
+   set result_housing_total = 13.340669,
+       result_grand_total = 55.845248
  where num_residents = 4 and
        co2_inc_flag = 9;
 
 update co2flags 
-   set result_housing_total = 13.210668,
-       result_grand_total = 60.29172
+   set result_housing_total = 15.454173,
+       result_grand_total = 66.289176
  where num_residents = 4 and
        co2_inc_flag = 11;
 
 update co2flags 
-   set result_housing_total = 11.595449,
-       result_grand_total = 50.548217
+   set result_housing_total = 13.678888,
+       result_grand_total = 55.824748
  where num_residents = 5 and
        co2_inc_flag = 1;
 
 update co2flags 
-   set result_housing_total = 11.200101,
-       result_grand_total = 47.970158
+   set result_housing_total = 13.163276,
+       result_grand_total = 53.244163
  where num_residents = 5 and
        co2_inc_flag = 8;
 
 update co2flags 
-   set result_housing_total = 11.946553,
-       result_grand_total = 52.721657
+   set result_housing_total = 14.079959,
+       result_grand_total = 58.399131
  where num_residents = 5 and
        co2_inc_flag = 9;
 
 update co2flags 
-   set result_housing_total = 13.631128,
-       result_grand_total = 63.347062
+   set result_housing_total = 15.934765,
+       result_grand_total = 69.663126
  where num_residents = 5 and
        co2_inc_flag = 11;
   

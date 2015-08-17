@@ -24,13 +24,16 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 
 ##Development and Analysis Tools
 * Data was stored in postgreSQL running on a SoftLayer ubuntu server.
-* R and python were used to analyze the data and create statistical analysis, forecasts, and appliance analysis of resource usage
+* R and python were used to analyze the data and create statistical analysis, forecasts, and appliance analysis of resource usage.
 * The pipeline was hooked into a shiny server to generate dynamic displays.
 
 ##Web Design
 * For mockups we used uxpin.com.
 * For our project description page we used a Bootstrap template ([Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)) for our webpage design.
 * A prototype website was created with weebly - http://energy-dashboard.weebly.com.
+
+##Link to Project
+http://groups.ischool.berkeley.edu/uconserve/
 
 ##Limitations
 * Unfortunately not every home in the US has meters on all of their resources.

@@ -24,6 +24,7 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
  
 ##Datasets
 * Pecan Street Inc. Dataport 2015 - the world’s largest source of circuit level, disaggregated and whole-home electricity use data, smart water meter data, smart natural gas meter data, time-stamped weather data, and metadata and annual participant survey data of 1,200+ individual residences in Texas, California, and Colorado - https://dataport.pecanstreet.org
+* CoolClimate API from UC Berkeley's CoolClimate Network - http://coolclimate.berkeley.edu/api
 * US Environmental Protection Agency Clean Energy Calculations and References - http://www.epa.gov/cleanenergy/energy-resources/refs.html
 
 ##Development and Analysis Tools

@@ -55,7 +55,7 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 
 
 ##Web Design
-* For mockups we used http://uxpin.com.
+* For mockups we used ([UXPin](http://uxpin.com).
 * For our project description page we used a Bootstrap template ([Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)) for our webpage design.
 * A prototype website was created with weebly - http://energy-dashboard.weebly.com.
 

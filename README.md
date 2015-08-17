@@ -18,6 +18,8 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 * Show total YTD, monthly, and daily costs.  
 * If possible, break down costs by appliance and flag appliances or watering devices that may be leaking or could be turned off. 
 
+![uConserve Behavioral Research](/web-deliverable/uConserve/img/portfolio/uConserve-BehvioralResearch.png?raw=true "uConserve Behavioral Research")
+
 ![uConserve Thought Process](/web-deliverable/uConserve/img/portfolio/uConserve-ThoughtProcess.png?raw=true "uConserve Thought Process")
 
 ![uConserve Project Flow](/web-deliverable/uConserve/img/portfolio/uConserve-Mindmap.png?raw=true "uConserve Project Flow")

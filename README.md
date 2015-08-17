@@ -62,6 +62,23 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 ##Link to Project
 http://groups.ischool.berkeley.edu/uconserve/
 
+##Forecasting Analysis
+* We used ARIMA models to predict energy usage for each between today and the end of the month. This allowed us to provide real-time predictions for the end-of-month bill.
+
+* Model performance was very strong. Tested on 3 separate users for days in winter and summer, our model predicted within 3 kWh of the day’s actual usage.
+
+* Summed at the month level (for bill prediction), we had an error rate of less than 1%.
+
+* We optimized our ARIMA model by grid searching on two primary parameters: the auto-regressive term, and the moving average term.
+
+* Providing accurate end-of-month predictions allows the user to feel confident in the number they are working against. They can set goals and see how they performed against the prediction when the end of the month comes around.
+
+* For our “don’t water” recommendation, we looked at precipitation predictions for the following 5 days. Weather data was provided along with electricity usage data in the Pecan Street dataset.
+
+##[Usage Analysis](http://energy-dashboard.weebly.com/technology-blogs/behind-the-scene-technology)
+
+##[Anomaly Detection](http://energy-dashboard.weebly.com/technology-blogs/appliance-detection)
+
 ##Limitations
 * Unfortunately not every home in the US has meters on all of their resources.
 * Some customers do not have data complete data for all 3 resources - electricity, water, and natural gas.  This made finding large enough comparison samples difficult sometimes. 

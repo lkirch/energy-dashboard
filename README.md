@@ -17,6 +17,8 @@ The uConserve dashboard is the manifestation of our mission in the form of a web
 * Compare with median electricity, gas, and water usage statistics.  
 * Show total YTD, monthly, and daily costs.  
 * If possible, break down costs by appliance and flag appliances or watering devices that may be leaking or could be turned off. 
+
+![uConserve Project Flow](/web-deliverable/uConserve/img/portfolio/uConserve-Mindmap.png?raw=true "uConserve Project Flow")
  
 ##Datasets
 * Pecan Street Inc. Dataport 2015 - the world’s largest source of circuit level, disaggregated and whole-home electricity use data, smart water meter data, smart natural gas meter data, time-stamped weather data, and metadata and annual participant survey data of 1,200+ individual residences in Texas, California, and Colorado - https://dataport.pecanstreet.org
